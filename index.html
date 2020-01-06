@@ -15,7 +15,7 @@
       <nav>
         <ul>
         <li class="home_button"><a href="index.html">Home</a></li>  
-         <li class="articles"><a href="articles_page.html">Articles</a></li>
+         <li class="article"><a href="articles_page.html">Articles</a></li>
          <li class="click_button"><a href="index.html">Click</a></li>
          <li class="about_button"><a href="about_page.html">About</a></li> 
          <li class="contact_button"><a href="contact_page.html">Contact</a></li> 
@@ -31,22 +31,35 @@
 <!----- START OF MAIN CONTENT------>   
 <main>
     
-<h1>Go from Amateur to Artist!</h1>
-    
-<img src="i/logo.png" alt="Click logo">
+<h2>Go from Amateur to Artist!</h2>
 
-<h3>The Photography newsletter, aiming to educate and inspire!</h3>
     
+    <div id="section_one">
+<img class="home_logo" src="i/logo.png" alt="Click logo">
+
+</div>
+    
+    
+<h3>The Photography newsletter, aiming to educate and inspire!</h3>
+
+<!-- NEW SECTION -->
+<div id="home_section_two">
 <p>Learn about photography principles and how to apply them to your images, 
 about photographers- past & present.</p>
-    
+ 
+<div id="exclusive">
 <p id="new_text">New!</p>
-<p>Get exclusive Interviews from upcoming photographers!</p>
+<p>Get exclusive interviews from upcoming photographers!</p>
+</div> 
     
 <img src="i/screenshot_one.jpg" alt="snapshot of newsletter">
     
-<h3>Haven't subscribed yet?</h3>
+
+</div>
     
+ <div class="form">
+<h3>Haven't subscribed yet?</h3>
+  
  <form>
         <p>
           <label>Email:</label>
@@ -57,16 +70,18 @@ about photographers- past & present.</p>
    
     </form>
     
-<img src="i/subscribe_button.png" alt="Subscribe Button">   
+<a href="subscription_page.html">
+   <img src="i/subscribe_button.png" alt="Subscribe Button">  </a> 
     
 <p>Subscribe and join the Click. Commuinity!</p>
+</div>  
 </main>
     
 <!----- END OF MAIN CONTENT------>  
         
 <!----- START OF FOOTER------> 
         
-<footer>
+<footer class="style_footer">
  <nav>
         <ul>
         <li class="twitter"><a href="#">Twitter</a></li>  

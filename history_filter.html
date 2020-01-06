@@ -15,7 +15,7 @@
       <nav>
         <ul>
         <li class="home_button"><a href="index.html">Home</a></li>  
-         <li class="articles"><a href="articles_page.html">Articles</a></li>
+         <li class="article"><a href="articles_page.html">Articles</a></li>
          <li class="click_button"><a href="index.html">Click</a></li>
          <li class="about_button"><a href="about_page.html">About</a></li> 
          <li class="contact_button"><a href="contact_page.html">Contact</a></li> 
@@ -32,23 +32,30 @@
 <main>
     
 <nav>
-<ul>
-    <li id="all_link"><a href="articles_page.html">All</a></li>
-    <li id="history_link"><a href="#">History</a></li>
-    <li id="tutorials_link"><a href="#">Tutorials</a></li>
-    <li id="current_link"><a href="#">Current Photographers</a></li>
+<ul class="article_nav">
+    <li class="topic">Topics:</li>
+    <li class="all_link"><a href="articles_page.html">All</a></li>
+    <li class="history_link"><a href="history_filter.html">History</a></li>
+    <li class="tutorials_link"><a href="tutorials.html">Tutorials</a></li>
+    <li class="current_link"><a href="current_photographers.html">Current Photographers</a></li>
     
-</ul>    
+</ul> 
 </nav>
-
+<!----START OF MAIN CONTENT----->
     
-<h3>History #1: Ansel Adams</h3>
-    
+<h3 class="article_h">History #1: Ansel Adams</h3>
+ 
+<div class="article_images">
 <img src="i/ansel_one.jpg" alt="Image by Ansel Adams">
+    </div>
+
+<div class="article_layout">
     
 <p>Learn more Ansel Adams, an infamous landscape Photographer who contributed to new methods of photo manipulation.</p>
     
-<img src="i/readmore_button.png" alt="read more button">
+<a href="ansel_article.html"><img src="i/readmore_button.png" alt="read more button"></a>
+    
+    </div>
 
     
 <!----- END OF MAIN CONTENT------> 
